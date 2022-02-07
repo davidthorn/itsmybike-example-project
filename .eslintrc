@@ -1,0 +1,49 @@
+{
+  "extends": ["@react-native-community", "prettier", "prettier/react", "eslint-config-prettier"],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+    "react/prefer-stateless-function": [0],
+    "react/jsx-indent": [0],
+    "react/sort-comp": [0],
+    "react/destructuring-assignment": [0],
+    "react/prop-types": 0,
+    "react/forbid-prop-types": [0],
+    "react/no-unescaped-entities": ["error", { "forbid": [">", "}"] }],
+    "quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": false }],
+    "jsx-quotes": ["error", "prefer-double"],
+    "camelcase": "off",
+    "react/state-in-constructor": [0],
+    "no-use-before-define": "off",
+    "arrow-parens": [0],
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "react-native/no-unused-styles": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-raw-text": 2,
+    "prettier/prettier": "warn",
+    "no-unused-vars": 0,
+    "no-console": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/type-annotation-spacing": "error",
+    "@typescript-eslint/no-unused-vars": 0
+  },
+  "plugins": ["prettier", "react", "react-native", "jest", "import"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./tsconfig.json"
+      }
+    }
+  }
+}

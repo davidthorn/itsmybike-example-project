@@ -1,0 +1,8 @@
+node_modules
+.expo/packager-info.json
+.idea
+.expo
+.jest
+.DS_Store
+whitelabel/*
+coverage/*

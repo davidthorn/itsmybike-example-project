@@ -1,0 +1,3 @@
+files:
+  - source: /src/constants/language/*.json
+    translation: /src/constants/language%locale%_translated.json
