@@ -1,3 +1,13 @@
+# itsmybike - example project
+
+This repository contains code that I have been sent so as I could review and complete a section of the code for them.
+
+The only part of this project that has been modified by myself is within this file: `./src/login/components/PhoneInput/PhoneInput.tsx`.
+
+I will not be maintaining this repository in anyway.
+
+The remaining parts of this README are not written by me and are from the original source code that I received.
+
 # setup
 
 *install node js
